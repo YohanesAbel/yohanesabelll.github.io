@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YohanesAbel Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,800;1,700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2344f04d0a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/yaya.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Undergraduate Statistic Student</p>
+          <h1>
+            Hi, I'm <span>Yohanes Abel</span> <br />from Diponegoro University
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/ab2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello there! I'm Yohanes Abel, a second-year student majoring in
+              Statistics at Diponegoro University, currently in my third
+              semester. I possess a strong foundation in data analysis and have
+              a flair for design. Beyond academics, I'm also passionate about
+              sports. My academic journey has allowed me to delve into the
+              intricacies of data analysis, where I apply my skills to derive
+              meaningful insights. Additionally, I have a keen interest in
+              design, enabling me to express creativity and present information
+              in visually compelling ways. Outside the academic realm, I find
+              joy in various sports activities. Engaging in sports not only
+              keeps me physically active but also contributes to a balanced and
+              healthy lifestyle. Thank you for visiting my portfolio. I am
+              enthusiastic about the intersection of statistical knowledge,
+              design skills, and my love for sports. Feel free to reach out if
+              you share similar interests or if there are opportunities for
+              collaboration.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Data Analysis</span><br />I possess proficient skills in
+                  data analysis, leveraging industry-standard tools such as SPSS
+                  and RStudio to derive meaningful insights from datasets. I am
+                  well-versed in utilizing SPSS for statistical analysis. In
+                  addition to SPSS, I am skilled in using RStudio for data
+                  analysis.
+                </li>
+                <li>
+                  <span>Design</span><br />I possess a keen eye for design,
+                  combining creativity with technical proficiency to convey
+                  information visually. My design skills are diverse and
+                  encompass various aspects of visual communication.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Private Tutor</span><br />Design and create learning
+                  materials that are interesting and easy to understand
+                </li>
+                <li>
+                  <span>Event Coordinator PRMK PORSENI</span><br />I had the
+                  privilege of serving as the Chairperson for the organization's
+                  Sports and Arts Festival (Porseni). In this leadership role, I
+                  oversaw the planning, coordination, and execution of the
+                  entire event. My responsibilities included developing the
+                  event schedule, managing logistics, and collaborating with
+                  various teams to ensure the seamless operation of the
+                  festival.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Diponegoro University</span><br />Undergraduate in
+                  3.78/4.00
+                </li>
+                <li>
+                  <span>Loyola College High School</span><br />High School
+                  Diploma in 86.0/100.0
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Private Tutor</h2>
+            <p>
+              As a dedicated private tutor, I offer personalized and effective learning experiences to students seeking academic support and enrichment. With a passion for education and a commitment to fostering individual growth, I specialize in providing one-on-one lessons tailored to meet the unique needs of each student.
+            </p>
+            <a href="https://wa.me/6282242093284">Contact Me</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Data Consultan</h2>
+            <p>
+              Unlock the power of your data with our expert data consulting services. We specialize in turning raw data into actionable insights, guiding businesses towards informed decision-making and strategic growth
+            </p>
+            <a href="https://www.glassdoor.com/Career/data-consultant-career_KO0,15.htm">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Freelancer Design Expertise</h2>
+            <p>
+              Elevate your brand and visual presence with my freelance design expertise. Specializing in graphic design, I offer a range of creative solutions, including logo design, branding, and promotional materials. Contact me for bespoke design solutions tailored to your needs. Your vision, my creativity—let's design success together!
+            </p>
+            <a href="https://wa.me/6282242093284">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/vosta.jpg" />
+            <div class="layer">
+              <h3>Vosta Group</h3>
+              <p>
+                VOSTA, our vocal group, proudly secured the second-place
+                position in the prestigious Diponegoro Art Competition. Renowned
+                for our harmonious performances, VOSTA showcased exceptional
+                vocal talent, captivating audiences and judges alike. This
+                achievement is a testament to our dedication, musical prowess,
+                and the unique blend of voices within our group. 
+              </p>
+              <a href="https://drive.google.com/file/d/1kddn1ZpUnZUhOQGPkGVanzWBSTMSMlSv/view?usp=sharing"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/infog2.png" />
+            <div class="layer">
+              <h3>Semifinalist STIS Infographic Competition</h3>
+              <p>
+                My team and I participated in the infographic competition
+                organized by STIS, securing a position among the top 10 and
+                advancing to the semifinals at the national level. Our
+                achievement reflects the dedication and creativity we invested
+                in crafting an impactful infographic. 
+              </p>
+              <a href="https://drive.google.com/file/d/1ht7YmaGX9RTXFdKeT_nBxyf-5PFk5ktf/view?usp=sharing"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/infog.png" />
+            <div class="layer">
+              <h3>6th UNS Infographic Competition</h3>
+              <p>
+                My team and I participated in the infographic competition hosted
+                by UNS, clinching the 6th position. This accomplishment
+                underscores our commitment to delivering visually compelling and
+                informative content. Competing against strong contenders, we are
+                thrilled to have secured a noteworthy placement. 
+              </p>
+              <a href="https://drive.google.com/file/d/1Nz6AjDHzenAn1-L4rvV-G6pgSuIJ6jH-/view?usp=sharing"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://instagram.com/yohanesabel_" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><i class="fa-solid fa-paper-plane"></i>abelfebiabel@gmail.com</p>
+            <p><a href="https://wa.me/6282242093284"><i class="fa-solid fa-square-phone"></i>082242093284</p>
+            <div class="social-icons">
+              <a href="https://instagram.com/yohanesabel_"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/yohanes-abel-570b2124a/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <a
+              href="images/TRB CV - Yohanes Abel Febi Christian.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <label for="nama">Nama:</label>
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                placeholder="Your Name"
+                required
+              />
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit here</button>
+            </form>
+          </div>
+          <span id="msg"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @yohanesabel. 2023. Made with stress</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-300px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby4H42mR8uQPfmjJUQy6DDOmNPDkyT34X7J9IjaY3RVzCoNNC_aeb9QWC9LMxB1ul--9w/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
